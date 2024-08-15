@@ -1,0 +1,40 @@
+button {
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-size: 150%;
+}
+
+div > div {
+    width: 35%;
+    margin: auto;
+}
+
+div > table {
+    margin: auto;
+    border-spacing: 1em;
+}
+
+th, td {
+    font-size: 130%;
+}
+
+table {
+    border: 0px solid blue;
+}
+
+#top {
+    border-bottom: 0.1em solid black;
+}
+
+#bottom {
+    border-top: 0.1em solid black;
+}
+
+#purchase-button {
+    position: absolute;
+}
+
+#receipt {
+    display: none;
+}

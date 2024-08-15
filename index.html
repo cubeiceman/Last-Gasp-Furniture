@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Elliott Suh">
+    <title>Last Gasp Furniture</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <div id="purchase">
+            <button id="purchase-button" onclick="purchase()">Make a Purchase</button>
+        </div>
+
+        <div id="receipt">
+            <div id="top">
+                <table id="purchase-info">
+                    <tr>
+                        <th>Item</th>
+                        <th>Quantity</th>
+                        <th>Unit Price</th>
+                        <th>Price</th>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="bottom">
+                <table>
+                    <tr>
+                        <th>Item Total:</th>
+                        <td id="item-total"></td>
+                    </tr>
+                    <tr>
+                        <th id="state-abbr">Shipping to</th>
+                        <td id="state-fee"></td>
+                    </tr>
+                    <tr>
+                        <th>Subtotal:</th>
+                        <td id="subtotal"></td>
+                    </tr>
+                    <tr>
+                        <th>Tax:</th>
+                        <td id="tax"></td>
+                    </tr>
+                    <tr>
+                        <th>Invoice Total:</th>
+                        <td id="invoice-total"></td>
+                    </tr>
+                </table>
+            </div>
+
+            <button onclick="reloadPage()">Shop Again</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+
+</html>
